@@ -54,6 +54,6 @@ button:active{
 span{
     margin-left: 10px;
 }
-div#container .box .onclick{
+div#container .box.onclick{
     background-color: yellow;
 }

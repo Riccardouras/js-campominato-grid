@@ -1,11 +1,17 @@
 const containerr = document.getElementById("container");
-const gioca = document.getElementById("play")
+const gioca = document.getElementById("play");
  
 play.addEventListener("click", function() {
-    containerr.innerHTML=""
+    containerr.innerHTML="";
     for (let i = 1; i < 101; i++) {
-        containerr.innerHTML += `<div class="box">${i}</div>`;
+       const x = `<div class="box">${i}</div>`;
+        x.addEventListener("click", function() {
+            x.classList.add("onclick")
+            this.classList.toggle("onclick");
+            console.log(this)
+      });
+      containerr.innerHTML += x;
     }
-    this.classList.toggle("onclick");
     return
 });
+
