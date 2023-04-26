@@ -20,6 +20,7 @@ header{
 }
 main{
     background-color: #7FFFD4;
+    padding-top: 200px;
 }
 #container {
     display: flex;
@@ -34,7 +35,7 @@ div#container .box {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #7FFFD4;
+    background-color: yellow;
     width: calc(100% / 10);
     height: calc(100% / 10);
     border: 1px solid;
@@ -55,5 +56,5 @@ span{
     margin-left: 10px;
 }
 div#container .box.onclick{
-    background-color: yellow;
+    background-color:#7FFFD4;
 }
