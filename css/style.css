@@ -39,6 +39,7 @@ div#container .box {
     width: calc(100% / 10);
     height: calc(100% / 10);
     border: 1px solid;
+    cursor: pointer;
 }
 button{
     background-color: white;
@@ -66,6 +67,7 @@ div#container .box1 {
     width: calc(100% / 9);
     height: calc(100% / 9);
     border: 1px solid;
+    cursor: pointer;
 }
 div#container .box2 {
     display: flex;
@@ -75,6 +77,7 @@ div#container .box2 {
     width: calc(100% / 7);
     height: calc(100% / 7);
     border: 1px solid;
+    cursor: pointer;
 }
 div#container .box1.onclick{
     background-color:#7FFFD4;
