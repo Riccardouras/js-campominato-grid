@@ -1,7 +1,8 @@
 const containerr = document.getElementById("container");
 const gioca = document.getElementById("play");
-const difficolta = document.getElementById("inputGroupSelect01").value;
+
 play.addEventListener("click", function() {
+    const difficolta = document.getElementById("inputGroupSelect01").value;
     containerr.innerHTML="";
     if(difficolta=="noob"){
         for (let i = 1; i < 101; i++) {
@@ -15,7 +16,6 @@ play.addEventListener("click", function() {
         });
       containerr.appendChild(x)
     }
-    return
 }else if(difficolta=="average"){
     for (let i = 1; i < 82; i++) {
         const x = document.createElement("div");
