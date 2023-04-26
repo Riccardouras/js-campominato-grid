@@ -1,10 +1,10 @@
 *{
-    box-sizing: border-box;
-    padding: 0%;
-    margin: 0%;
+    box-sizing: border-box !important;
+    padding: 0% !important;
+    margin: 0% !important;
 }
 body{
-    background-color: #7FFFD4;
+    background-color: #7FFFD4 !important;
     font-family: sans-serif;
 }
 header{
@@ -16,7 +16,7 @@ header{
 .flex{
     display: flex;
     align-items: center;
-    font-size: 2rem;
+    font-size: 2rem !important;
 }
 main{
     background-color: #7FFFD4;
@@ -44,10 +44,10 @@ button{
     background-color: white;
     color: black;
     border: 2px solid #e7e7e7;
-    margin-right: 2rem;
-    padding: 1.7rem;
-    border-radius: 20px;
-    font-size: 1.4rem;
+    margin-right: 2rem !important;
+    padding: 1.7rem !important;
+    border-radius: 20px !important;
+    font-size: 1.4rem !important;
 }
 button:active{
     background-color: #e7e7e7;
@@ -57,4 +57,22 @@ span{
 }
 div#container .box.onclick{
     background-color:#7FFFD4;
+}
+div#container .box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+    border: 1px solid;
+}
+div#container .box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    width: calc(100% / 7);
+    height: calc(100% / 7);
+    border: 1px solid;
 }
