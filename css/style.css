@@ -87,9 +87,8 @@ div#container .box2.onclick{
     background-color:#7FFFD4;
 }
 footer{
+    display: flex;
     background-color: white;
-    padding-bottom: 2.5vh !important;
-}
-h4{
-    margin-bottom: 0.6rem !important;
+    height: 7.7vh !important;
+    align-items: center;
 }
