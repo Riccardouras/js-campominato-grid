@@ -67,7 +67,6 @@ div#container .box1 {
     background-color: yellow;
     width: calc(100% / 9);
     height: calc(100% / 9);
-    border: 1px solid;
     cursor: pointer;
     border: 4px outset #bbb;
 }
@@ -78,7 +77,6 @@ div#container .box2 {
     background-color: yellow;
     width: calc(100% / 7);
     height: calc(100% / 7);
-    border: 1px solid;
     cursor: pointer;
     border: 4px outset #bbb;                 
 }
@@ -90,5 +88,8 @@ div#container .box2.onclick{
 }
 footer{
     background-color: white;
-    padding-bottom: 4.7vh !important;
+    padding-bottom: 2.5vh !important;
+}
+h4{
+    margin-bottom: 0.6rem !important;
 }

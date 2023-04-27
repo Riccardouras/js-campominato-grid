@@ -8,11 +8,11 @@ play.addEventListener("click", function() {
         for (let i = 1; i < 101; i++) {
             const x = document.createElement("div");
             x.classList.add("box");
-            x.classList.add("onclick")
+            x.classList.add("onclick");
             x.innerHTML+=`${i}`
             x.addEventListener("click", function() {
                 this.classList.toggle("onclick");
-                console.log({i})
+                console.log({i});
         });
       containerr.appendChild(x)
     }
@@ -20,11 +20,11 @@ play.addEventListener("click", function() {
     for (let i = 1; i < 82; i++) {
         const x = document.createElement("div");
         x.classList.add("box1");
-        x.classList.add("onclick")
+        x.classList.add("onclick");
         x.innerHTML+=`${i}`
         x.addEventListener("click", function() {
             this.classList.toggle("onclick");
-            console.log({i})
+            console.log({i});
     });
   containerr.appendChild(x)
 }
@@ -32,13 +32,13 @@ play.addEventListener("click", function() {
     for (let i = 1; i < 50; i++) {
         const x = document.createElement("div");
         x.classList.add("box2");
-        x.classList.add("onclick")
+        x.classList.add("onclick");
         x.innerHTML+=`${i}`
         x.addEventListener("click", function() {
             this.classList.toggle("onclick");
-            console.log({i})
+            console.log({i});
     });
-  containerr.appendChild(x)
+  containerr.appendChild(x);
 }
 }
 });
